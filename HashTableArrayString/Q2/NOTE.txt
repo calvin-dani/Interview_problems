@@ -1,0 +1,2 @@
+question2_t1 is O(n) using hashset
+question2_t2 is O(nlogn) using sorting
