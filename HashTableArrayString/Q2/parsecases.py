@@ -1,4 +1,4 @@
-fhand = open("C:/Users/calvi/OneDrive/Documents/Documents/CrackingInterviewProb/HashTableArrayString/testcasesstring.txt")
+fhand = open("testcasesstring.txt")
 
 unparse = fhand.readlines()
 to_parse = list()
