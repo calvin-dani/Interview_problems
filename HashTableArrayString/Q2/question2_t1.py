@@ -22,8 +22,8 @@ for letter in string_arr[1]:
     else:
         print("Not a combination")
         quit()
-        
+
 if len(letter_set):
-    print("Not a combination")
+    princft("Not a combination")
 else:
     print("Is a combination")
