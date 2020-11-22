@@ -1,3 +1,1 @@
-question9_t1 is O(n^2) solution
-question9_t2 is O(nlogn) solution
-question9_t3 is O(n) solution
+question11_t1.py O(n)
