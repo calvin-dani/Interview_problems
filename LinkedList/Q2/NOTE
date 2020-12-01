@@ -1,0 +1,3 @@
+question_t1.py O(n) with  linear iteration 
+question_t2.py O(n) and O(n) space  with recursion
+question_t1.py O(n) with  linear iteration slightly better with one pass 
