@@ -12,8 +12,8 @@ index = 0
 for line in unparse:
     temp = list()
     if size_mat == None:
-        size_mat = int(line.strip()) 
-    elif line != '\n':
+        size_mat = int(line.strip())
+    elif line != "\n":
         for number in line.strip().split():
             temp.append(int(number))
         parsed.append(temp)
@@ -24,4 +24,3 @@ for line in unparse:
 def print_mat(print_lists):
     for line in print_lists:
         print(line)
-  

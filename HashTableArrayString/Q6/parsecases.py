@@ -5,8 +5,5 @@ to_parse = list()
 parsed = list()
 
 for line in unparse:
-    if line != '\n':
+    if line != "\n":
         parsed.append(line)
-
-
-  

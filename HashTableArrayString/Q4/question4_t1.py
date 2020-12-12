@@ -1,7 +1,7 @@
 import parsecases as pc
 
 
-string_list = ''
+string_list = ""
 hashset = set()
 
 for test_c in pc.parsed:

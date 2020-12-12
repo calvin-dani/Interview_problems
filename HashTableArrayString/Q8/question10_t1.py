@@ -1,12 +1,12 @@
 import parsecases as pc
 
 string_mat = list()
-rotated_mat = list() 
+rotated_mat = list()
 
 
 for test_c in pc.parsed:
     string_mat.append(test_c)
-    
+
 
 pc.print_mat(string_mat)
 rowSet = set()
@@ -18,7 +18,7 @@ for listRow in range(len(string_mat)):
             rowSet.add(listRow)
             colSet.add(number)
 
-print(rowSet,colSet)
+print(rowSet, colSet)
 for rowIdx in rowSet:
     for colIdx in range(len(string_mat)):
         string_mat[rowIdx][colIdx] = 0

@@ -18,12 +18,12 @@ for letter in string_arr[1]:
     if letter in letter_set:
         letter_set[letter] -= 1
         if letter_set[letter] == 0:
-                del letter_set[letter]
+            del letter_set[letter]
     else:
         print("Not a combination")
         quit()
 
 if len(letter_set):
-    princft("Not a combination")
+    print("Not a combination")
 else:
     print("Is a combination")

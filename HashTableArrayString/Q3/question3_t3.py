@@ -16,6 +16,6 @@ for letter in string_list:
     if letter.isalpha():
         ans += letter
     else:
-        ans += '%20'
+        ans += "%20"
 
 print(ans)
