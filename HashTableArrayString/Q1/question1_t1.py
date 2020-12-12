@@ -1,7 +1,6 @@
 import parsecases as pc
 
 
-
 for test_c in pc.parsed:
     print(test_c)
     flag = 0
@@ -10,9 +9,9 @@ for test_c in pc.parsed:
         while p2 < len(test_c):
             if test_c[p1] == test_c[p2]:
                 print("Not unique")
-                flag = 1 
+                flag = 1
                 break
             p2 += 1
-    
+
     if flag != 1:
         print("All numbers are unique")
