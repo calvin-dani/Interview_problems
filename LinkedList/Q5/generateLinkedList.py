@@ -10,9 +10,9 @@ class Node:
 def createLinkedList():
     head = Node(7)
     point = head
-    length = random.randrange(17)
+    length = random.randrange(5)
     for i in range(length):
-        point.next = Node(random.randrange(7))
+        point.next = Node(random.randrange(9))
         point = point.next
     return (head, length)
 
