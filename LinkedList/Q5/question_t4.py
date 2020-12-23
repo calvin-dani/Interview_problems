@@ -57,7 +57,6 @@ def main():
         tempHead = ll.Node(1)
         tempHead.next = head
         head = tempHead
-    print("===============")
     ll.printlinked(head)
     return head
 
