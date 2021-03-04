@@ -1,1 +1,2 @@
-watercollection.js is done in O(n) solution
+water_trapT1.js is done in O(n^2) solution
+water_trapT2.js is done in O(nlogn) solution

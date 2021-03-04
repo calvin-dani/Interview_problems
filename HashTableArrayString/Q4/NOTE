@@ -1,1 +1,2 @@
 question4_t1 is O(n) using hashsets
+question4_t2 is O(n) using bitvector
