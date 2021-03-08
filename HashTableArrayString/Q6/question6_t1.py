@@ -17,7 +17,7 @@ for letter_ind in range(len(string_list)):
     if letter_ind == len(string_list) - 1:
         solution += temp + str(count) + "\n"
 
-    if temp == None:
+    if temp is None:
         temp = string_list[letter_ind]
     elif temp != string_list[letter_ind]:
         solution += temp + str(count)

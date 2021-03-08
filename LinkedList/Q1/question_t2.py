@@ -5,10 +5,10 @@ ll.printlinked(head)
 
 
 point = head
-while point != None:
+while point is not None:
     point2 = point.next
     preValue = point
-    while point2 != None:
+    while point2 is not None:
         if point2.value == point.value:
             preValue.next = point2.next
             point2 = point2.next
