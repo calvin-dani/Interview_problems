@@ -14,7 +14,7 @@ def createLinkedList():
     for i in range(length):
         point.next = Node(random.randrange(9))
         point = point.next
-    return (head, length)
+    return (head, length + 1)
 
 
 def createPalindromeLL():
@@ -32,7 +32,7 @@ def createPalindromeLL():
         temp.next = point2
         point2 = temp
     point.next = point2
-    return (head, length)
+    return (head, ((length + 1) * 2))
 
 
 def printlinked(head):
